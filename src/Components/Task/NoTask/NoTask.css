@@ -1,0 +1,53 @@
+body {
+  background: #f4f4f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.notask-cont {
+  width: 304px;
+  height: 158px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000a;
+  border-radius: 12px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    border-radius: 0;
+    top: 28%;
+  }
+}
+
+.notask-input {
+  text-align: center;
+}
+
+.notask-text {
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #537178;
+  opacity: 1;
+}
+
+.notask-btn {
+  width: 124px;
+  height: 40px;
+  background: #5285ec 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}

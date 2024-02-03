@@ -1,0 +1,235 @@
+.completed {
+  text-decoration: line-through;
+  color: #537178;
+  opacity: 1;
+}
+.tasklist-cont {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    margin-top: 29px;
+  }
+}
+.list-body {
+  padding: 32px 120px 0 120px;
+  width: 100%;
+  @media screen and (max-width: 576px) {
+    padding: 0;
+  }
+}
+.list-header {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+.list-name {
+  font-size: 20px;
+  margin: 0;
+  color: #537178;
+}
+.list-func {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.listbtn-new {
+  height: 40px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 0;
+  background: #5285ec 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 12px;
+  font-family: "Montserrat", sans-serif;
+  @media screen and (max-width: 576px) {
+    margin-top: 8px;
+    margin-left: 0;
+    width: 291px;
+  }
+}
+.search-bar {
+  position: relative;
+}
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.list-searchinput {
+  padding-left: 40px;
+  background: url("search-solid.png") 15px 50% no-repeat #d9dfeb;
+  background-size: 16px;
+  border: none;
+  border-radius: 8px;
+  width: 204px;
+  height: 40px;
+  margin-left: auto;
+  @media screen and (max-width: 576px) {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 252px;
+  }
+}
+.list-cont {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000014;
+  border-radius: 12px;
+  opacity: 1;
+  font-size: 20px;
+  width: 100%;
+  @media screen and (max-width: 576px) {
+    border-radius: 0;
+  }
+}
+.list-cont ul {
+  list-style: none;
+  margin: 27px 35px 27px 24px;
+  padding: 0;
+  @media screen and (max-width: 576px) {
+    margin: 16px 13px 24px 16px;
+  }
+}
+.list-cont li {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #5285ec;
+  border-bottom: 2px solid #e8e8e8;
+}
+.list-cont li:last-child {
+  border-bottom: none;
+}
+
+.checkbox {
+  width: 19px;
+  height: 19px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #95a4ab;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 12px;
+}
+
+.cont-func {
+  margin-left: auto;
+}
+.edit-icon {
+  margin-right: 16.56px;
+}
+.latest-task {
+  width: 304px;
+  height: 158px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000a;
+  border-radius: 12px;
+  opacity: 1;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+.latest-cont {
+  padding: 24px 9px 28px 24px;
+  width: 271px;
+  height: 106px;
+  @media screen and (max-width: 576px) {
+    padding: 24px 28px 28px 32px;
+  }
+}
+.latest-name {
+  font-size: 20px;
+  color: #537178;
+}
+.latest-cont ul {
+  padding-left: 24px;
+  width: 249px;
+  height: 70px;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #8f9ea2;
+  opacity: 1;
+}
+.completed-cont {
+  display: flex;
+  width: 304px;
+  height: 158px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000a;
+  border-radius: 12px;
+  opacity: 1;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+.completed-input {
+  margin: 24px 24px 28px 24px;
+  width: 100%;
+  @media screen and (max-width: 576px) {
+    margin: 24px 28px 28px 32px;
+  }
+}
+.completed-name {
+  font-size: 20px;
+  color: #537178;
+}
+.completed-counter {
+  display: flex;
+}
+.completed-task {
+  font-size: 64px;
+  letter-spacing: 0px;
+  color: #5285ec;
+  opacity: 1;
+}
+.completed-total {
+  letter-spacing: 0px;
+  color: #8f9ea2;
+  opacity: 1;
+  margin-top: 58px;
+  font-size: 20px;
+}
+.chart-cont {
+  width: 304px;
+  height: 158px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000000a;
+  border-radius: 12px;
+  opacity: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+.piechart {
+  width: 101px;
+  height: 101px;
+}
+.manager-cont {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 94px;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    margin-top: 84px;
+  }
+}

@@ -1,0 +1,54 @@
+.header {
+  position: absolute;
+  width: -webkit-fill-available;
+  left: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  z-index: 999;
+  top: 0;
+}
+
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  @media screen and (max-width: 576px) {
+    margin: 0 24px;
+  }
+}
+.profile {
+  align-items: center;
+  display: flex;
+  padding: 12px 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  opacity: 1;
+}
+
+.profile-name {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #6d8187;
+  padding-left: 16px;
+}
+
+.logout {
+  text-align: right;
+}
+
+.logout-btn {
+  letter-spacing: 0px;
+  color: #6d8187;
+  opacity: 1;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+}
