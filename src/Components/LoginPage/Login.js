@@ -8,8 +8,8 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    const validId = "12345";
-    const validName = "aarif";
+    const validId = "test@123";
+    const validName = "test@123";
 
     if (id === validId && name === validName) {
       const storedTasks = JSON.parse(localStorage.getItem("tasks")) || [];
@@ -18,9 +18,14 @@ const Login = () => {
       } else {
         navigate("/home");
       }
+    } else {
+      // Handle incorrect login attempt here
+      alert("Incorrect username or password"); // Displaying an alert for simplicity
+      // You can also clear the input fields here if needed
+      setId("");
+      setName("");
     }
   };
-
   return (
     <div className="cont-login">
       <div className="cont-box">
@@ -29,14 +34,14 @@ const Login = () => {
           <input
             className="login-input"
             type="text"
-            placeholder="Id"
+            placeholder="test@123"
             value={id}
             onChange={(e) => setId(e.target.value)}
           />
           <input
             className="login-input"
-            type="text"
-            placeholder="Name"
+            type="password"
+            placeholder="test@123"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
